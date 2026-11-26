@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09090f">
+  <meta name="description" content="Akira Devlog — projetos, experimentos e aprendizados em desenvolvimento, ciência e tecnologia.">
+  <title>Akira Devlog — Development, Science & Technology</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="posts.js"></script><script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#"><span class="logo-icon">A</span><span>AKIRA<span class="dim">.DEVLOG</span></span></a>
+  <nav><a href="#projects" data-t="navProjects">Projetos</a><a href="#journal" data-t="navJournal">Devlog</a><a href="#about" data-t="navAbout">Sobre</a><a href="https://github.com/Akira-Kim" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+  <button id="language" class="lang" type="button">EN</button>
+</header>
+<main>
+<section class="hero wrap">
+  <div class="kicker"><i></i><span data-t="kicker">DESENVOLVIMENTO · CIÊNCIA · TECNOLOGIA</span></div>
+  <p class="overline">A PERSONAL DEVELOPMENT JOURNAL</p>
+  <h1 data-t-html="heroTitle">Ideias em movimento.<br><span>Conhecimento em construção.</span></h1>
+  <p class="lead" data-t="heroText">Um espaço para registrar projetos, experimentos e aprendizados — da programação à computação científica, da robótica à educação tecnológica.</p>
+  <div class="hero-links"><a class="button" href="#projects" data-t="explore">Explorar projetos <b>↘</b></a><a class="quiet-link" href="https://github.com/Akira-Kim" target="_blank" rel="noreferrer">github.com/Akira-Kim ↗</a></div>
+  <div class="hero-bottom"><span>01 / PORTFOLIO & NOTES</span><span>BUILT WITH CURIOSITY</span></div>
+</section>
+<section class="wrap section" id="projects">
+  <div class="section-title"><div><span class="eyebrow">SELECTED WORK</span><h2 data-t="projectsTitle">Projetos em destaque</h2></div><span class="small-note">GITHUB REPOSITORIES</span></div>
+  <div class="projects-grid" id="projectGrid"></div>
+</section>
+<section class="wrap section journal" id="journal">
+  <div class="section-title"><div><span class="eyebrow">FIELD NOTES</span><h2 data-t="journalTitle">Do laboratório ao devlog</h2></div><span class="small-note" id="postCount">04 ARTICLES</span></div>
+  <div class="tools"><label class="search"><span>⌕</span><input id="search" type="search" data-t-placeholder="search" placeholder="Buscar no devlog..."></label><div id="filters" class="filters"></div></div>
+  <div class="posts-grid" id="posts"></div><p class="empty hidden" id="empty" data-t="empty">Nenhum artigo encontrado.</p>
+</section>
+<section class="about wrap section" id="about">
+  <div><span class="eyebrow">ABOUT AKIRA</span><h2 data-t-html="aboutTitle">Construir é uma forma<br>de <span>investigar.</span></h2></div>
+  <div class="about-copy"><p data-t="aboutText">Sou Akira, técnica em informática, estudante de Licenciatura em Química e desenvolvedora em constante aprendizado. Tenho interesse em programação, computação científica, inteligência artificial, robótica e educação tecnológica. Este espaço documenta o caminho entre uma ideia, seus testes e aquilo que aprendo ao construir.</p><div class="chips"><span>Software Development</span><span>Scientific Computing</span><span>Robotics & Education</span><span>Artificial Intelligence</span></div><div class="social"><a href="https://github.com/Akira-Kim" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/akira-bruno" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
+</section>
+</main>
+<footer class="wrap"><a class="logo" href="#"><span class="logo-icon">A</span><span>AKIRA<span class="dim">.DEVLOG</span></span></a><span>© <span id="year"></span> AKIRA KIM</span><a href="#">BACK TO TOP ↑</a></footer>
+<dialog id="reader"><button class="close" id="close" aria-label="Fechar">×</button><div id="readerContent"></div></dialog>
+</body></html>
