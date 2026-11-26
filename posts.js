@@ -67,4 +67,22 @@ window.DEVLOG_POSTS = [
       "en": "<p><strong>Smart Wood</strong> is a course completion project carried out in 2023 in collaboration with Ana Luisa. Its repository preserves this academic project and a team development experience.</p><h3>Learning beyond code</h3><p>Collaborative projects also involve sharing responsibilities, organizing deliverables, documenting decisions, and bringing different contributions together.</p><p>This project is part of the record of work that tells the story of my learning and development.</p><p><a href=\"https://github.com/Akira-Kim/Smart_Wood\" target=\"_blank\" rel=\"noreferrer\">Open Smart Wood on GitHub ↗</a></p>"
     }
   }
+  {
+    "id": "Data centers espaciais e IA",
+    "date": "2026-11-26",
+    "category": "Noticia do Dia",
+    "title": {
+      "pt": "Data centers espaciais e IA",
+      "en": "Space Data Centers and AI"
+    },
+    "excerpt": {
+      "pt": "Uma loucura que abre mão a humanidade em prol de lucro?",
+      "en": "A form of madness that forsakes humanity for the sake of profit?"
+    },
+    "body": {
+      "pt": "<p><strong>Data centers espaciais e IA</strong> A SpaceX planeja lançar um milhão de satélites para operar inteligência artificial, em meio a aprovações nos EUA para criação de data centers no espaço.</p><p><a href=\"https://noticias.uol.com.br/ultimas-noticias/afp/2026/11/26/spacex-e-autorizada-a-lancar-um-milhao-de-satelites-para-data-centers-no-espaco.htm\" target=\"_blank\" rel=\"noreferrer\">Ler mais sobre Data centers espaciais e IA ↗</a></p>",
+      "en": "<p><strong>Space Data Centers and AI</strong> SpaceX plans to launch one million satellites to power artificial intelligence, amid U.S. approvals for the creation of data centers in space.</p><p>This project is part of the record of work that tells the story of my learning and development.</p><p><a href=\"https://github.com/Akira-Kim/Smart_Wood\" target=\"_blank\" rel=\"noreferrer\">read more ↗</a></p>"
+    }
+  }
+  
 ];
